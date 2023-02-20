@@ -10,10 +10,12 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int a;
-	for (a = 0; a < 10; a++ )
-		printf("%d", a);
-	printf("\n");
+	int a, c = 97;
+	for (a = 0; a < 10; a++)
+		putchar(a+'0');
+	for (; c < 103; c++)
+		putchar(c);
+	putchar('\n');
 	return 0;
 }
 

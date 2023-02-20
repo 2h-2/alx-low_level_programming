@@ -7,12 +7,14 @@
  * Return: Always 0 (Success)
  */
 int main(void){
-	int c=65 ,v=97;
-	while(v<123){
+	int c = 65 ,v = 97;
+	while (v < 123)
+	{
                 putchar(v);
                 v++;
         } 
-	while(c<91){
+	while (c < 91)
+	{
 		putchar(c);
 		c++;
 	}

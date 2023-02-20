@@ -7,8 +7,9 @@
  * Return: Always 0 (Success)
  */
 int main(void){
-	int c=97;
-	while(c<123){
+	int c = 97;
+	while (c < 123)
+	{
 		putchar(c);
 		c++;
 	}

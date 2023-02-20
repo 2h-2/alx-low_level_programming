@@ -7,9 +7,11 @@
  * Return: Always 0 (Success)
  */
 int main(void){
-	int c=97;
-	while(c<123){
-		if(c==101||c==113){
+	int c = 97;
+	while (c < 123)
+	{
+		if (c == 101 || c == 113)
+		{
 			c++;
 			continue;
 		}
