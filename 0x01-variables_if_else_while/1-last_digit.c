@@ -8,12 +8,15 @@
  * Return: Always 0 (Success)
  */
 /* betty style doc for function main goes there */
+
 int main(void)
 {
 	int n, m;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	m = n % 10;
+
 	if (m > 5)
 		printf("last digit of %d is %d and is greater than 5\n", n, m);
 	else if (m == 0)

@@ -6,9 +6,11 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int c = 65 ,v = 97;
+
 	while (v < 123)
 	{
                 putchar(v);
