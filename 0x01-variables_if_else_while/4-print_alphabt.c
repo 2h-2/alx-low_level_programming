@@ -6,7 +6,8 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void){
+int main(void)
+{
 	int c = 97;
 	while (c < 123)
 	{
@@ -19,5 +20,5 @@ int main(void){
 		c++;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
