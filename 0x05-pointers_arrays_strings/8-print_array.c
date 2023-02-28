@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 	 * print_array - writes the character c to stdout
 	 * @a: The character to print
@@ -13,8 +14,8 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		putchar(a[i]);
+		printf("%d", a[i]);
 		if (i != (n - 1))
-			putchar(',');
+			printf(", ");
 	}
-	putchar('\n');
+	printf("\n");
