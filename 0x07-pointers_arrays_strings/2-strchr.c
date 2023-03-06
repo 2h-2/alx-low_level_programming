@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-	 * _strchr - writes the character c to stdout
-	 * @c: The character to print
+	 * _strchr - Entry point
+	 * @c: input
 	 * @s: input
 	 * Return: On success 1.
 	 * On error, -1 is returned, and errno is set appropriately.

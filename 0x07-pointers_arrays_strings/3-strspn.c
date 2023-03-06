@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-	 * _strspn - writes the character c to stdout
-	 * @s: The character to print
+	 * _strspn - Entry point
+	 * @s: input
 	 * @accept: input
 	 * Return: On success 1.
 	 * On error, -1 is returned, and errno is set appropriately.
@@ -16,7 +16,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		for (r = 0; accept[r]; r++)
 		{
-			if(*s == accept[r])
+			if (*s == accept[r])
 			{
 				n++;
 				break;

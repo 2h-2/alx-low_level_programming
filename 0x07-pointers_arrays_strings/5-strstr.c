@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-	 * _strstr - writes the character c to stdout
-	 * @haystack: The character to print
+	 * _strstr - Entry point
+	 * @haystack: input
 	 * @needle: input
 	 * Return: On success 1.
 	 * On error, -1 is returned, and errno is set appropriately.
